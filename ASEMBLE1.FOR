@@ -31,6 +31,7 @@ C
 	  A(I,I)=XL(0)/DR2L+XR(0)/DR2R
 	  B(I,I)=XL(2)+XR(2)-2.0D0*XR(1)+XR(0)
 	  END IF
+	  
 	  IF(I.EQ.N) GOTO 15
 	  A(I,I+1)=-XR(0)/DR2R
 	  B(I,I+1)=-XR(2)+XR(1)
